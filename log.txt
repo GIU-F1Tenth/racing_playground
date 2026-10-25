@@ -1,0 +1,184 @@
+Launching base system – map: icra26_a_grayed  racecar_version: SIM  sim: True
+[INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-06-01-12-02-31-078098-ubuntu-mac-395358
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [launch_ros.actions.node]: Parameter file path is not a file: /home/ubuntu/ws/install/stack_master/share/stack_master/maps/icra26_a_grayed/speed_scaling.yaml
+[WARNING] [launch_ros.actions.node]: Parameter file path is not a file: /home/ubuntu/ws/install/stack_master/share/stack_master/maps/icra26_a_grayed/ot_sectors.yaml
+[INFO] [rviz2-1]: process started with pid [395374]
+[INFO] [gym_bridge-2]: process started with pid [395376]
+[INFO] [lifecycle_manager-3]: process started with pid [395378]
+[INFO] [map_server-4]: process started with pid [395380]
+[INFO] [robot_state_publisher-5]: process started with pid [395382]
+[INFO] [static_transform_publisher-6]: process started with pid [395384]
+[INFO] [frenet_odom_republisher_node-7]: process started with pid [395388]
+[INFO] [global_parameter_node-8]: process started with pid [395419]
+[INFO] [global_trajectory_publisher-9]: process started with pid [395423]
+[INFO] [sector_tuner-10]: process started with pid [395448]
+[INFO] [ot_interpolator-11]: process started with pid [395451]
+[INFO] [lap_analyser-12]: process started with pid [395453]
+[rviz2-1] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ubuntu'
+[rviz2-1] libGL error: pci id for fd 20: 1ab8:0010, driver (null)
+[rviz2-1] pci id for fd 22: 1ab8:0010, driver (null)
+[rviz2-1] libGL error: pci id for fd 25: 1ab8:0010, driver (null)
+[rviz2-1] pci id for fd 26: 1ab8:0010, driver (null)
+[lifecycle_manager-3] [0m[INFO] [1780315351.202356618] [lifecycle_manager_localization]: Creating[0m
+[lifecycle_manager-3] [0m[INFO] [1780315351.202750493] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m[0m
+[lifecycle_manager-3] [0m[INFO] [1780315351.215080243] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m[0m
+[lifecycle_manager-3] [0m[INFO] [1780315351.215248284] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m[0m
+[lifecycle_manager-3] [31m[ERROR] [1780315351.215873909] [lifecycle_manager_localization]: Failed to change state for node: map_server[0m
+[lifecycle_manager-3] [31m[ERROR] [1780315351.215886534] [lifecycle_manager_localization]: Failed to bring up all requested nodes. Aborting bringup.[0m
+[map_server-4] [0m[INFO] [1780315351.214618076] [map_server]: 
+[map_server-4] 	map_server lifecycle node launched. 
+[map_server-4] 	Waiting on external lifecycle transitions to activate
+[map_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.[0m
+[map_server-4] [0m[INFO] [1780315351.214661659] [map_server]: Creating[0m
+[map_server-4] [0m[INFO] [1780315351.215399701] [map_server]: Configuring[0m
+[map_server-4] [0m[INFO] [1780315351.215420659] [map_io]: Loading yaml file: /home/ubuntu/ws/install/stack_master/share/stack_master/maps/icra26_a_grayed/icra26_a_grayed.yaml[0m
+[map_server-4] [31m[ERROR] [1780315351.215454118] [map_io]: Failed processing YAML file /home/ubuntu/ws/install/stack_master/share/stack_master/maps/icra26_a_grayed/icra26_a_grayed.yaml at position (-1:-1) for reason: bad file: /home/ubuntu/ws/install/stack_master/share/stack_master/maps/icra26_a_grayed/icra26_a_grayed.yaml[0m
+[map_server-4] [31m[ERROR] [1780315351.215487659] [map_server]: Caught exception in callback for transition 10[0m
+[map_server-4] [31m[ERROR] [1780315351.215492326] [map_server]: Original error: Failed to load map yaml file: /home/ubuntu/ws/install/stack_master/share/stack_master/maps/icra26_a_grayed/icra26_a_grayed.yaml[0m
+[map_server-4] [33m[WARN] [1780315351.215497243] [map_server]: Callback returned ERROR during the transition: configure[0m
+[map_server-4] [31m[FATAL] [1780315351.215500368] [map_server]: Lifecycle node map_server does not have error state implemented[0m
+[robot_state_publisher-5] [0m[INFO] [1780315351.203376784] [ego_robot_state_publisher]: got segment ego_racecar/back_left_wheel[0m
+[robot_state_publisher-5] [0m[INFO] [1780315351.203404368] [ego_robot_state_publisher]: got segment ego_racecar/back_right_wheel[0m
+[robot_state_publisher-5] [0m[INFO] [1780315351.203407243] [ego_robot_state_publisher]: got segment ego_racecar/base_link[0m
+[robot_state_publisher-5] [0m[INFO] [1780315351.203409118] [ego_robot_state_publisher]: got segment ego_racecar/front_left_hinge[0m
+[robot_state_publisher-5] [0m[INFO] [1780315351.203410784] [ego_robot_state_publisher]: got segment ego_racecar/front_left_wheel[0m
+[robot_state_publisher-5] [0m[INFO] [1780315351.203412326] [ego_robot_state_publisher]: got segment ego_racecar/front_right_hinge[0m
+[robot_state_publisher-5] [0m[INFO] [1780315351.203413909] [ego_robot_state_publisher]: got segment ego_racecar/front_right_wheel[0m
+[robot_state_publisher-5] [0m[INFO] [1780315351.203415368] [ego_robot_state_publisher]: got segment ego_racecar/laser[0m
+[static_transform_publisher-6] [33m[WARN] [1780315351.198774201] []: Old-style arguments are deprecated; see --help for new-style arguments[0m
+[static_transform_publisher-6] [0m[INFO] [1780315351.202445909] [static_map_to_odom]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'map' to 'odom'[0m
+[rviz2-1] [0m[INFO] [1780315351.303173743] [rviz2]: Stereo is NOT SUPPORTED[0m
+[rviz2-1] [0m[INFO] [1780315351.303561118] [rviz2]: OpenGl version: 4 (GLSL 4)[0m
+[rviz2-1] [0m[INFO] [1780315351.323513993] [rviz2]: Stereo is NOT SUPPORTED[0m
+[sector_tuner-10] Traceback (most recent call last):
+[sector_tuner-10]   File "/home/ubuntu/ws/install/sector_tuner/lib/sector_tuner/sector_tuner", line 33, in <module>
+[sector_tuner-10]     sys.exit(load_entry_point('sector-tuner==0.0.0', 'console_scripts', 'sector_tuner')())
+[sector_tuner-10]   File "/home/ubuntu/ws/install/sector_tuner/lib/python3.10/site-packages/sector_tuner/sector_tuner.py", line 248, in main
+[sector_tuner-10]     node = SectorTuner()
+[sector_tuner-10]   File "/home/ubuntu/ws/install/sector_tuner/lib/python3.10/site-packages/sector_tuner/sector_tuner.py", line 32, in __init__
+[sector_tuner-10]     self.n_sectors = self.sectors_params['n_sectors']
+[sector_tuner-10] KeyError: 'n_sectors'
+[global_trajectory_publisher-9] [0m[INFO] [1780315351.501522118] [global_republisher]: Reading parameters from /home/ubuntu/ws/install/stack_master/share/stack_master/maps/icra26_a_grayed[0m
+[global_trajectory_publisher-9] [33m[WARN] [1780315351.501695993] [global_republisher]: /home/ubuntu/ws/install/stack_master/share/stack_master/maps/icra26_a_grayed/global_waypoints.json not found. Not publishing pre-loaded waypoints.[0m
+[ERROR] [sector_tuner-10]: process has died [pid 395448, exit code 1, cmd '/home/ubuntu/ws/install/sector_tuner/lib/sector_tuner/sector_tuner --ros-args -r __node:=sector_tuner --params-file /tmp/launch_params_n0i73k54'].
+[ot_interpolator-11] Traceback (most recent call last):
+[ot_interpolator-11]   File "/home/ubuntu/ws/install/sector_tuner/lib/sector_tuner/ot_interpolator", line 33, in <module>
+[ot_interpolator-11]     sys.exit(load_entry_point('sector-tuner==0.0.0', 'console_scripts', 'ot_interpolator')())
+[ot_interpolator-11]   File "/home/ubuntu/ws/install/sector_tuner/lib/python3.10/site-packages/sector_tuner/ot_interpolator.py", line 439, in main
+[ot_interpolator-11]     node = OvertakingInterpolator()
+[ot_interpolator-11]   File "/home/ubuntu/ws/install/sector_tuner/lib/python3.10/site-packages/sector_tuner/ot_interpolator.py", line 36, in __init__
+[ot_interpolator-11]     self.n_sectors = self.sectors_params['n_sectors']
+[ot_interpolator-11] KeyError: 'n_sectors'
+[gym_bridge-2] Traceback (most recent call last):
+[gym_bridge-2]   File "/home/ubuntu/ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros/gym_bridge", line 33, in <module>
+[gym_bridge-2]     sys.exit(load_entry_point('f1tenth-gym-ros==0.0.0', 'console_scripts', 'gym_bridge')())
+[gym_bridge-2]   File "/home/ubuntu/ws/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros/gym_bridge.py", line 471, in main
+[gym_bridge-2]     gym_bridge = GymBridge()
+[gym_bridge-2]   File "/home/ubuntu/ws/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros/gym_bridge.py", line 126, in __init__
+[gym_bridge-2]     self.env = gym.make('f110_gym:f110-v0',
+[gym_bridge-2]   File "/usr/local/lib/python3.10/dist-packages/gymnasium/envs/registration.py", line 802, in make
+[gym_bridge-2]     env = env_creator(**env_spec_kwargs)
+[gym_bridge-2]   File "/home/ubuntu/ws/src/racing_playground/base_system/f110_simulator/f1tenth_gym/gym/f110_gym/envs/f110_env.py", line 183, in __init__
+[gym_bridge-2]     self.sim.set_map(self.map_path, self.map_ext)
+[gym_bridge-2]   File "/home/ubuntu/ws/src/racing_playground/base_system/f110_simulator/f1tenth_gym/gym/f110_gym/envs/base_classes.py", line 510, in set_map
+[gym_bridge-2]     agent.set_map(map_path, map_ext)
+[gym_bridge-2]   File "/home/ubuntu/ws/src/racing_playground/base_system/f110_simulator/f1tenth_gym/gym/f110_gym/envs/base_classes.py", line 179, in set_map
+[gym_bridge-2]     RaceCar.scan_simulator.set_map(map_path, map_ext)
+[gym_bridge-2]   File "/home/ubuntu/ws/src/racing_playground/base_system/f110_simulator/f1tenth_gym/gym/f110_gym/envs/laser_models.py", line 399, in set_map
+[gym_bridge-2]     self.map_img = np.array(Image.open(map_img_path).transpose(Image.FLIP_TOP_BOTTOM))
+[gym_bridge-2]   File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2953, in open
+[gym_bridge-2]     fp = builtins.open(filename, "rb")
+[gym_bridge-2] FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/ws/install/stack_master/share/stack_master/maps/icra26_a_grayed/icra26_a_grayed.png'
+[lap_analyser-12] [0m[INFO] [1780315351.721404618] [lap_analyser]: Lap_analyser node started[0m
+[lap_analyser-12] [0m[INFO] [1780315351.749581701] [lap_analyser]: LapAnalyser will be centered at 0.0, 0.0, 1.5[0m
+[lap_analyser-12] [0m[INFO] [1780315351.753650243] [lap_analyser]: Lap analyser data path: /home/ubuntu/ws/data/lap_analyser[0m
+[ERROR] [ot_interpolator-11]: process has died [pid 395451, exit code 1, cmd '/home/ubuntu/ws/install/sector_tuner/lib/sector_tuner/ot_interpolator --ros-args -r __node:=ot_interpolator --params-file /tmp/launch_params_oman83ee'].
+[ERROR] [gym_bridge-2]: process has died [pid 395376, exit code 1, cmd '/home/ubuntu/ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros/gym_bridge --ros-args -r __node:=bridge --params-file /home/ubuntu/ws/install/stack_master/share/stack_master/config/SIM/sim.yaml --params-file /tmp/launch_params_0ncld5_o --params-file /tmp/launch_params_f7wz8366'].
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[static_transform_publisher-6] [0m[INFO] [1780315361.317885664] [rclcpp]: signal_handler(SIGINT/SIGTERM)[0m
+[lifecycle_manager-3] [0m[INFO] [1780315361.318031914] [rclcpp]: signal_handler(SIGINT/SIGTERM)[0m
+[lifecycle_manager-3] [0m[INFO] [1780315361.318165373] [lifecycle_manager_localization]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_localization)[0m
+[lifecycle_manager-3] [0m[INFO] [1780315361.320991414] [lifecycle_manager_localization]: Destroying lifecycle_manager_localization[0m
+[frenet_odom_republisher_node-7] Traceback (most recent call last):
+[frenet_odom_republisher_node-7]   File "/home/ubuntu/ws/install/frenet_odom_republisher/lib/frenet_odom_republisher/frenet_odom_republisher_node", line 33, in <module>
+[frenet_odom_republisher_node-7]     sys.exit(load_entry_point('frenet-odom-republisher==0.0.0', 'console_scripts', 'frenet_odom_republisher_node')())
+[frenet_odom_republisher_node-7]   File "/home/ubuntu/ws/install/frenet_odom_republisher/lib/python3.10/site-packages/frenet_odom_republisher/frenet_odom_republisher_node.py", line 73, in main
+[frenet_odom_republisher_node-7]     rclpy.spin(frenet_odom_republisher)
+[frenet_odom_republisher_node-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[frenet_odom_republisher_node-7]     executor.spin_once()
+[frenet_odom_republisher_node-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[frenet_odom_republisher_node-7]     self._spin_once_impl(timeout_sec)
+[frenet_odom_republisher_node-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[frenet_odom_republisher_node-7]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[frenet_odom_republisher_node-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[frenet_odom_republisher_node-7]     return next(self._cb_iter)
+[frenet_odom_republisher_node-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 677, in _wait_for_ready_callbacks
+[frenet_odom_republisher_node-7]     wait_set.wait(timeout_nsec)
+[frenet_odom_republisher_node-7] KeyboardInterrupt
+[map_server-4] [0m[INFO] [1780315361.318445748] [rclcpp]: signal_handler(SIGINT/SIGTERM)[0m
+[map_server-4] [0m[INFO] [1780315361.318517539] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)[0m
+[map_server-4] [0m[INFO] [1780315361.318564081] [map_server]: Destroying bond (map_server) to lifecycle manager.[0m
+[robot_state_publisher-5] [0m[INFO] [1780315361.318943164] [rclcpp]: signal_handler(SIGINT/SIGTERM)[0m
+[lap_analyser-12] Traceback (most recent call last):
+[lap_analyser-12]   File "/home/ubuntu/ws/install/lap_analyser/lib/lap_analyser/lap_analyser", line 33, in <module>
+[lap_analyser-12]     sys.exit(load_entry_point('lap-analyser==0.0.0', 'console_scripts', 'lap_analyser')())
+[lap_analyser-12]   File "/home/ubuntu/ws/install/lap_analyser/lib/python3.10/site-packages/lap_analyser/lap_analyser.py", line 267, in main
+[lap_analyser-12]     rclpy.spin(lap_analyser)
+[lap_analyser-12]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[lap_analyser-12]     executor.spin_once()
+[lap_analyser-12]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[lap_analyser-12]     self._spin_once_impl(timeout_sec)
+[lap_analyser-12]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[lap_analyser-12]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[lap_analyser-12]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[lap_analyser-12]     return next(self._cb_iter)
+[lap_analyser-12]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 677, in _wait_for_ready_callbacks
+[lap_analyser-12]     wait_set.wait(timeout_nsec)
+[lap_analyser-12] KeyboardInterrupt
+[rviz2-1] [0m[INFO] [1780315361.319155623] [rclcpp]: signal_handler(SIGINT/SIGTERM)[0m
+[global_parameter_node-8] Traceback (most recent call last):
+[global_parameter_node-8]   File "/home/ubuntu/ws/install/stack_master/lib/stack_master/global_parameter_node", line 33, in <module>
+[global_parameter_node-8]     sys.exit(load_entry_point('stack-master==0.0.0', 'console_scripts', 'global_parameter_node')())
+[global_parameter_node-8]   File "/home/ubuntu/ws/install/stack_master/lib/python3.10/site-packages/stack_master/global_parameter_node.py", line 38, in main
+[global_parameter_node-8]     rclpy.spin(node)
+[global_parameter_node-8]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[global_parameter_node-8]     executor.spin_once()
+[global_parameter_node-8]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[global_parameter_node-8]     self._spin_once_impl(timeout_sec)
+[global_parameter_node-8]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[global_parameter_node-8]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[global_parameter_node-8]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[global_parameter_node-8]     return next(self._cb_iter)
+[global_parameter_node-8]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 677, in _wait_for_ready_callbacks
+[global_parameter_node-8]     wait_set.wait(timeout_nsec)
+[global_parameter_node-8] KeyboardInterrupt
+[global_trajectory_publisher-9] Traceback (most recent call last):
+[global_trajectory_publisher-9]   File "/home/ubuntu/ws/install/global_planner/lib/global_planner/global_trajectory_publisher", line 33, in <module>
+[global_trajectory_publisher-9]     sys.exit(load_entry_point('global-planner==0.0.0', 'console_scripts', 'global_trajectory_publisher')())
+[global_trajectory_publisher-9]   File "/home/ubuntu/ws/install/global_planner/lib/python3.10/site-packages/global_planner/global_trajectory_publisher.py", line 138, in main
+[global_trajectory_publisher-9]     rclpy.spin(republisher)
+[global_trajectory_publisher-9]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[global_trajectory_publisher-9]     executor.spin_once()
+[global_trajectory_publisher-9]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[global_trajectory_publisher-9]     self._spin_once_impl(timeout_sec)
+[global_trajectory_publisher-9]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[global_trajectory_publisher-9]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[global_trajectory_publisher-9]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[global_trajectory_publisher-9]     return next(self._cb_iter)
+[global_trajectory_publisher-9]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 677, in _wait_for_ready_callbacks
+[global_trajectory_publisher-9]     wait_set.wait(timeout_nsec)
+[global_trajectory_publisher-9] KeyboardInterrupt
+[map_server-4] [0m[INFO] [1780315361.325564164] [map_server]: Destroying[0m
+[ERROR] [global_parameter_node-8]: process has died [pid 395419, exit code -2, cmd '/home/ubuntu/ws/install/stack_master/lib/stack_master/global_parameter_node --ros-args -r __node:=global_parameters --params-file /tmp/launch_params_p3j6soc3 --params-file /tmp/launch_params_fa4829vt --params-file /tmp/launch_params_eqal7p9s --params-file /tmp/launch_params_n72aq9h4'].
+[ERROR] [lap_analyser-12]: process has died [pid 395453, exit code -2, cmd '/home/ubuntu/ws/install/lap_analyser/lib/lap_analyser/lap_analyser --ros-args -r __node:=lap_analyser'].
+[ERROR] [global_trajectory_publisher-9]: process has died [pid 395423, exit code -2, cmd '/home/ubuntu/ws/install/global_planner/lib/global_planner/global_trajectory_publisher --ros-args -r __node:=global_republisher --params-file /tmp/launch_params_f91rnl_5'].
+[ERROR] [frenet_odom_republisher_node-7]: process has died [pid 395388, exit code -2, cmd '/home/ubuntu/ws/install/frenet_odom_republisher/lib/frenet_odom_republisher/frenet_odom_republisher_node --ros-args -r __node:=frenet_odom_republisher'].
+[INFO] [static_transform_publisher-6]: process has finished cleanly [pid 395384]
+[INFO] [lifecycle_manager-3]: process has finished cleanly [pid 395378]
+[INFO] [robot_state_publisher-5]: process has finished cleanly [pid 395382]
+[INFO] [map_server-4]: process has finished cleanly [pid 395380]
+[INFO] [rviz2-1]: process has finished cleanly [pid 395374]

@@ -27,3 +27,18 @@
 [submodule "master/kayn_controller"]
 	path = master/kayn_controller
 	url = https://github.com/GIU-F1Tenth/kayn_controller.git
+[submodule "gap_follower"]
+	path = gap_follower
+	url = https://github.com/GIU-F1Tenth/gap_follower.git
+[submodule "pure_pursuit"]
+	path = pure_pursuit
+	url = https://github.com/GIU-F1Tenth/pure_pursuit.git
+[submodule "trajectory_planning"]
+	path = trajectory_planning
+	url = https://github.com/GIU-F1Tenth/trajectory_planning.git
+[submodule "race_monitor"]
+	path = race_monitor
+	url = https://github.com/GIU-F1Tenth/race_monitor.git
+[submodule "utilities/acados"]
+	path = utilities/acados
+	url = https://github.com/acados/acados.git

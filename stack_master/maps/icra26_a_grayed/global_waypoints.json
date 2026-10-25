@@ -1,0 +1,27 @@
+{
+    "map_info_str": {
+        "data": "icra26_a_grayed track \u2013 skeleton, update after mapping"
+    },
+    "est_lap_time": {
+        "data": 0.0
+    },
+    "centerline_markers": {
+        "markers": []
+    },
+    "global_waypoints": {
+        "markers": []
+    },
+    "raceline_markers": {
+        "markers": []
+    },
+    "centerline_waypoints": {
+        "header": {
+            "stamp": {
+                "sec": 0,
+                "nanosec": 0
+            },
+            "frame_id": "map"
+        },
+        "wpnts": []
+    }
+}

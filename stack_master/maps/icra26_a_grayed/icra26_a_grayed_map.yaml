@@ -1,0 +1,9 @@
+image: icra26_a_grayed_map.png
+negate: 0
+occupied_thresh: 0.65
+origin:
+- -21.416741943359376
+- -6.713269042968751
+- 0
+resolution: 0.05000000074505806
+free_thresh: 0.196
